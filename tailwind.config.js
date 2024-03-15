@@ -5,8 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bannerBG': "url('./src/assets/BannerBG.svg')",
+      }
+    },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"],
+  },
 }
 
