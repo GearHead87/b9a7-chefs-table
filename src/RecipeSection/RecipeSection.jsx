@@ -40,7 +40,7 @@ const RecipeSection = () => {
         <div>
             <div className="text-center space-y-4 mt-10">
                 <h1 className="text-2xl lg:text-5xl font-semibold ">Our Recipes</h1>
-                <p className="text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+                <p className="text-sm lg:text-base">Explore a delectable array of dishes waiting to tantalize your taste buds in our vibrant Our Recipes section.</p>
             </div>
             <div className="flex flex-col lg:flex-row">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
