@@ -16,7 +16,7 @@ const Navbar = () => {
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a className="text-base lg:text-xl">Recipe Calories</a>
+                    <a className="text-base lg:text-xl font-bold">Recipe Calories</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

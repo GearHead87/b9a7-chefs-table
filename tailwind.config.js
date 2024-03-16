@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bannerBG': "url('./src/assets/BannerBG.svg')",
-      }
+        // 'bannerBG': "url('./src/assets/BannerBG.svg')",
+        'bannerBG': "url('/BannerBG.svg')",
+      },
     },
   },
   plugins: [require("daisyui")],
