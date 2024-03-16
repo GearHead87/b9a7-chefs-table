@@ -18,7 +18,7 @@
         ],
         "preparing_time": 25,
         "calories": 320,
-        "recipe_image": "spicy_chicken_stir_fry.jpg"
+        "recipe_image": "https://i.ibb.co/41hk6FC/image.png"
     },
     {
         "recipe_id": "2",
@@ -37,7 +37,7 @@
         ],
         "preparing_time": 40,
         "calories": 280,
-        "recipe_image": "vegetable_curry.jpg"
+        "recipe_image": "https://i.ibb.co/Wf58ghp/image.png"
     },
     {
         "recipe_id": "3",
@@ -53,7 +53,7 @@
         ],
         "preparing_time": 35,
         "calories": 250,
-        "recipe_image": "margherita_pizza.jpg"
+        "recipe_image": "https://i.ibb.co/bWjyKFF/image.png"
     },
     {
         "recipe_id": "4",
@@ -71,7 +71,7 @@
         ],
         "preparing_time": 15,
         "calories": 180,
-        "recipe_image": "mango_avocado_salad.jpg"
+        "recipe_image": "https://i.ibb.co/S02LF4b/image.png"
     },
     {
         "recipe_id": "5",
@@ -88,7 +88,7 @@
         ],
         "preparing_time": 20,
         "calories": 290,
-        "recipe_image": "teriyaki_salmon.jpg"
+        "recipe_image": "https://i.ibb.co/rt36kYn/image.png"
     },
     {
         "recipe_id": "6",
@@ -107,6 +107,6 @@
         ],
         "preparing_time": 30,
         "calories": 260,
-        "recipe_image": "quinoa_chickpea_salad.jpg"
+        "recipe_image": "https://i.ibb.co/9hRc9TL/image.png"
     }
 ]
