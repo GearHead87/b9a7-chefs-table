@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Recipes from "../Recipes/Recipes";
 import CookTable from "../CookTable/CookTable";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const RecipeSection = () => {
     const [recipes, setRecipes] = useState([]);
@@ -17,13 +19,19 @@ const RecipeSection = () => {
             .then(data => setRecipes(data));
     }, []);
 
+    const notify = () => {
+        // Calling toast method by passing string
+        toast.warning("It looks like you've already added this recipe to your list.");
+    };
+
     const handleCook = (recipe) => {
         const isExists = cooks.find((cook) => cook.recipe_id === recipe.recipe_id);
         if (!isExists) {
             setCooks([...cooks, recipe]);
         }
         else{
-            alert(`It looks like you've already added this recipe to your list.`);
+            // alert(`It looks like you've already added this recipe to your list.`);
+            notify();
         }
     }
 
@@ -41,6 +49,7 @@ const RecipeSection = () => {
             <div className="text-center space-y-4 mt-10">
                 <h1 className="text-2xl lg:text-5xl font-semibold ">Our Recipes</h1>
                 <p className="text-sm lg:text-base">Explore a delectable array of dishes waiting to tantalize your taste buds in our vibrant Our Recipes section.</p>
+                <ToastContainer />
             </div>
             <div className="flex flex-col lg:flex-row">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
